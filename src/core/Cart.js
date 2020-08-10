@@ -17,7 +17,7 @@ const Cart = () => {
   }, [reload]);
 
   const loadAllProducts = () => {
-    return isAutheticated()?   ( <div>
+    return (products.length)?   ( <div>
     <h2>Items In Your Cart </h2>
     {products.map((product, index) => (
       <Card
