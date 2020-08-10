@@ -30,10 +30,8 @@ const Cart = () => {
       />
     ))}
   </div>): (
-    <Link to="/signin">
-    <button className="btn-primary">Sign In to view your cart</button>
-    </Link>
    
+    <h2>Your Cart is Empty </h2>
     );
   };
   const loadCheckout = () => {
